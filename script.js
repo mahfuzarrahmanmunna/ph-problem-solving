@@ -34,9 +34,21 @@ function isPalindrome(str) {
     return true;
 }
 
+function findMax(arr) {
+    let max = arr[0]; 
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    return max;
+}
+
+
 // Example usage
 console.log(reverseString("hello"));
 console.log(countVowels("programming"));
 
-console.log(isPalindrome("madam")); // true
-console.log(isPalindrome("hello")); // false
+console.log(isPalindrome("madam")); 
+console.log(isPalindrome("hello"));
+console.log(findMax([5, 1, 9, 3]));
