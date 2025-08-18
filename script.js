@@ -109,14 +109,14 @@ function pingPong() {
 }
 
 
-// Example usage
-console.log(reverseString("hello"));
-console.log(countVowels("programming"));
+// // Example usage
+// console.log(reverseString("hello"));
+// console.log(countVowels("programming"));
 
-console.log(isPalindrome("madam"));
-console.log(isPalindrome("hello"));
-console.log(findMax([5, 1, 9, 3]));
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4]))
-console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
+// console.log(isPalindrome("madam"));
+// console.log(isPalindrome("hello"));
+// console.log(findMax([5, 1, 9, 3]));
+// console.log(removeDuplicates([1, 2, 2, 3, 4, 4]))
+// console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
 
-pingPong();
+// pingPong();
