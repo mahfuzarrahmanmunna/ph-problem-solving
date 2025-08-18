@@ -34,8 +34,9 @@ function isPalindrome(str) {
     return true;
 }
 
+// problem no 4
 function findMax(arr) {
-    let max = arr[0]; 
+    let max = arr[0];
     for (let i = 1; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i];
@@ -44,11 +45,23 @@ function findMax(arr) {
     return max;
 }
 
+function removeDuplicates(arr) {
+    const unique = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (!unique.includes(arr[i])) {
+            unique.push(arr[i]);
+        }
+    }
+    return unique;
+}
+
+
 
 // Example usage
 console.log(reverseString("hello"));
 console.log(countVowels("programming"));
 
-console.log(isPalindrome("madam")); 
+console.log(isPalindrome("madam"));
 console.log(isPalindrome("hello"));
 console.log(findMax([5, 1, 9, 3]));
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4]))
