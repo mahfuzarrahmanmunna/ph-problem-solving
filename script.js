@@ -83,6 +83,32 @@ function capitalizeWords(str) {
         .join(" "); 
 }
 
+// problem no -9
+function factorial(n) {
+    if (n < 0) return "Invalid input"; // factorial negative number-এর জন্য possible নয়
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i; // result = result * i
+    }
+    return result;
+}
+
+// problem no -10
+function pingPong() {
+    for (let i = 1; i <= 20; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("PingPong");
+        } else if (i % 3 === 0) {
+            console.log("Ping");
+        } else if (i % 5 === 0) {
+            console.log("Pong");
+        } else {
+            console.log(i);
+        }
+    }
+}
+
+
 // Example usage
 console.log(reverseString("hello"));
 console.log(countVowels("programming"));
@@ -92,3 +118,5 @@ console.log(isPalindrome("hello"));
 console.log(findMax([5, 1, 9, 3]));
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4]))
 console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
+
+pingPong();
