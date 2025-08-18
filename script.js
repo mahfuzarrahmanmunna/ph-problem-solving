@@ -75,6 +75,14 @@ function findEvenNumbers(arr) {
     return evenNumbers;
 }
 
+// problem no -8
+function capitalizeWords(str) {
+    return str
+        .split(" ") 
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1)) 
+        .join(" "); 
+}
+
 // Example usage
 console.log(reverseString("hello"));
 console.log(countVowels("programming"));
