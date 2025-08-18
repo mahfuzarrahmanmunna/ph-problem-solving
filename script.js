@@ -64,6 +64,16 @@ function sumArray(arr) {
     return sum;
 }
 
+// problem no -7
+function findEvenNumbers(arr) {
+    const evenNumbers = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            evenNumbers.push(arr[i]);
+        }
+    }
+    return evenNumbers;
+}
 
 // Example usage
 console.log(reverseString("hello"));
@@ -73,3 +83,4 @@ console.log(isPalindrome("madam"));
 console.log(isPalindrome("hello"));
 console.log(findMax([5, 1, 9, 3]));
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4]))
+console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
