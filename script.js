@@ -85,10 +85,10 @@ function capitalizeWords(str) {
 
 // problem no -9
 function factorial(n) {
-    if (n < 0) return "Invalid input"; // factorial negative number-এর জন্য possible নয়
+    if (n < 0) return "Invalid input";
     let result = 1;
     for (let i = 2; i <= n; i++) {
-        result *= i; // result = result * i
+        result *= i; 
     }
     return result;
 }
