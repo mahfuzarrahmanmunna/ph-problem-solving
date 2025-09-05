@@ -118,7 +118,7 @@ console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
 console.log("Md mahfuzar rahman munna");
 // pingPong();
 function forkTest() {
-  console.log(`This is Fork test 1 from Naimur Rahman.`);
+  console.log(`This is Fork test 1 from Mahfuzar Rahman.`);
   console.log(`This is Fork test 2 from Naimur Rahman.`);
 }
 
