@@ -1,6 +1,7 @@
 // problem number 1
 function reverseString(str) {
   let reversed = "";
+  let forkTestNaimur = "This line is for fork test to create conflict";
 
   for (let i = str.length - 1; i >= 0; i--) {
     reversed += str[i];
