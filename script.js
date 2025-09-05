@@ -118,5 +118,6 @@ console.log("Md mahfuzar rahman munna");
 // pingPong();
 function forkTest() {
   console.log(`This is Fork test 1 from Naimur Rahman.`);
+  console.log(`This is Fork test 2 from Naimur Rahman.`);
 }
 
