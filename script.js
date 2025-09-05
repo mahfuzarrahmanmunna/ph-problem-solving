@@ -113,8 +113,8 @@ function pingPong() {
 // console.log(isPalindrome("hello"));
 // console.log(findMax([5, 1, 9, 3]));
 // console.log(removeDuplicates([1, 2, 2, 3, 4, 4]))
-// console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
-
+console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
+console.log("Md mahfuzar rahman munna");
 // pingPong();
 function forkTest() {
   console.log(`This is Fork test 1 from Naimur Rahman.`);
